@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Layot</title>
+  <link href="https://fonts.cdnfonts.com/css/chava" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./style/style.css" />
+  <link rel="stylesheet" href="./fonts/stylesheet.css" />
+
+  <link rel="stylesheet" href="./Splide/splide-4.1.3/splide-4.1.3/dist/css/splide.min.css">
+  <link rel="stylesheet" href="./Splide/splide-4.1.3/splide-4.1.3/dist/css/themes/splide-default.min.css">
+</head>
+
+<body>
+  <main>
+    <!-- Первый экран лендинга -->
+
+    <section id="hello">
+      <div class="logo_tehnikom">
+        <img src="./img/logo_tehnikom.png" class="logo_tehnikum" alt="" />
+      </div>
+
+      <div class="info-date">
+        <div>
+          <p class="info-text">старт</p>
+          <p class="info-text-date">1 декабря</p>
+        </div>
+        <div>
+          <p class="info-text">длительность</p>
+          <p class="info-text-date">2 месяца | 24 занятия</p>
+        </div>
+      </div>
+
+      <h1>HTML, CSS, JS</h1>
+
+      <p class="text-prof">
+        Верстальщик – это специалист, который кодит страницы web-сайтов,
+        разбивает текст на отдельные страницы, компонует его с иллюстрациями.
+        Он умеет создавать HTML-шаблоны для веб-сайтов и писать HTML-код,
+        знает, как графически оформить страницу и правильно расположить на ней
+        элемент, и знаком со стилями
+      </p>
+
+      <div class="btn-container">
+        <button class="first-button">Получить программу курса</button>
+        <button class="secondary">Записаться на курс</button>
+      </div>
+    </section>
+
+    <!-- Второй экран лендинга -->
+
+    <section>
+      <h2 class="title">Этот курс для тебя, если ты...</h2>
+
+      <div class="first-block-emoji">
+        <div class="emoji-cart-block">
+          <img class="emoji" src="./img/beard_emoji.png" alt="" />
+          <p class="text-emoji-title">Backend разработчик</p>
+          <p class="text-emoji">
+            Если ты уже владеешь навыками Backend разработки, то изучив HTML,
+            CSS, JavaScript получишь базу, чтобы начать изучение frontend и
+            встать на путь full-stack разработчика
+          </p>
+        </div>
+
+        <div class="emoji-cart-block">
+          <img class="emoji" src="./img/glasses_emoji.png" alt="" />
+          <p class="text-emoji-title">СТУДЕНТ</p>
+          <p class="text-emoji">
+            Профессия Веб-Верстальщика это отличная возможность для того,
+            чтобы построить карьеру в сфере IT. В конце курса у тебя уже будет
+            портфолио для трудоустройства
+          </p>
+        </div>
+      </div>
+
+      <div class="second-block-emoji">
+        <div class="emoji-cart-block">
+          <div>
+            <img class="emoji" src="./img/shame_emoji.png" alt="" />
+          </div>
+          <p class="text-emoji-title">НАЧИНАЮЩИЙ <br />ПРОГРАММИСТ</p>
+          <p class="text-emoji">
+            Тем, кто уже начал осваивать HTML и CSS, но хочет получить
+            структурированные знания и конструктивный фидбек
+          </p>
+        </div>
+
+        <div class="emoji-cart-block">
+          <img class="emoji" src="./img/hearts_emoji.png" alt="" />
+          <p class="text-emoji-title">ХОЧЕШЬ ОБУЧИТЬСЯ НОВОЙ ПРОФЕССИИ</p>
+          <p class="text-emoji">
+            Веб-Верстальщик является одной из самых перспективных профессий на
+            сегодняшний день. Это идеальный старт для того чтобы начать
+            карьеру frontend разработчика.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Третий экран лендинга Таймер -->
+
+    <section class="purpleBg">
+      <h3>10% скидка действует</h3>
+
+      <div class="timer">
+        <div class="timerElem">
+          <div class="value" id="timerHours">00</div>
+          <div class="desc">часов</div>
+        </div>
+        <div class="timerElem">
+          <div class="value" id="timerMinets">00</div>
+          <div class="desc">минут</div>
+        </div>
+        <div class="timerElem">
+          <div class="value" id="timerSeconds">00</div>
+          <div class="desc">секунд</div>
+        </div>
+      </div>
+      <button class="secondary">Воспользоваться скидкой</button>
+    </section>
+
+    <!-- Четвертый экран лендинга -->
+
+    <section>
+      <h2 class="title">А кто преподает?</h2>
+      <div class="bio">
+        <div class="coolTeacher">
+          <img src="./img/pic_Roman-Ickov.png" alt="Легендарный Юрий Максимович" />
+        </div>
+        <div class="bioText">
+          <h4>Юрий Каграманян</h4>
+          <p class="text-prof">
+            Практикующий преподаватель с опытом работы в сфере веб
+            программирования
+          </p>
+          <div class="experiense">
+            <div class="exp">
+              <img src="./img/Icon_case.png" alt="" />
+              <span>Руководитель TEHNIKUM.CODING</span>
+            </div>
+            <div class="exp">
+              <img src="./img/Icon_winning_cup.png" alt="" />
+              <span>Призер международных олимпиад</span>
+            </div>
+          </div>
+          <div class="experiense">
+            <div class="exp">
+              <img src="./img/Icon_hearts.png" alt="" />
+              <span id="hyphenation-correction">Работал с компаниями Hi-Tech Bank, UGGI, 1C-Bitrix</span>
+            </div>
+            <div class="exp">
+              <img src="./img/Icon_keyboard.png" alt="" />
+              <span>Более 10 лет опыта в программировании</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Пятый экран лендинга -->
+
+    <section class="info-education">
+      <h2 class="title">За 2 месяца ты станешь полноценным верстальщиком</h2>
+      
+      <div class="first-block-emoji">
+
+        <div class="texst-block">
+          <p class="text-emoji-title">— Обучаем с нуля</p>
+          <p class="text-emoji">
+            Начнешь с самых основ и будешь двигаться от простого к сложному,
+            закрепляя каждый урок практикой
+          </p>
+        </div>
+
+        <div class="texst-block">
+          <p class="text-emoji-title">
+            — Помогаем лучшим студентам с трудоустройством
+          </p>
+          <p class="text-emoji">
+            Лучших студентов мы рекомендуем в ведущие веб-студии Узбекистана
+          </p>
+        </div>
+      </div>
+
+      <div class="second-block-emoji">
+
+        <div class="texst-block">
+          <p class="text-emoji-title">— 70% практики</p>
+          <p class="text-emoji">
+            Большая часть курса проходит в режиме live-коддинга, что позволяет
+            сразу применить знания на практике и сформировать портфолио
+          </p>
+        </div>
+
+        <div class="texst-block">
+          <p class="text-emoji-title">— Доводим до результата</p>
+          <p class="text-emoji">
+            В рамках курса за твоими успехами будут следить тьюторы, которые
+            ответят на любые возникающие вопросы и помогут усвоить материал
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Шестой экран лендинга -->
+
+    <section class="program">
+
+      <div class="programBorder">
+        <img src="./img/course-program-corner.svg" alt="" id="corner">
+
+        <div class="indents">
+          <h2 class="title-base">Программа курса</h2>
+  
+          <ul class="lessons">
+            <li class="lesson">Урок №1: Знакомство с html, css, js и разница между ними</li>
+            <li class="lesson">Урок №2: Виды сайтов и первые термины</li>
+            <li class="lesson">Урок №2: Виды сайтов и первые термины</li>
+            <li class="lesson">Урок №4: HTML [Таблицы]</li>
+            <li class="lesson">Урок №5: HTML [Формы]</li>
+            <li class="lesson borderNone">Урок №6: CSS [Intermediate]</li>
+          </ul>
+        </div>
+        <div class="desktopButtom">
+          <button class="desktop">Получить полную программу курса</button>
+        </div>
+        
+      </div>
+
+      <div class="mobileButtom">
+        <button class="mobile">Получить полную программу курса</button>
+      </div>
+
+    </section>
+
+    <!-- Седьмой экран лендинга -->
+
+    <section class="diploma">
+
+      <img src="./img/Diploma.png" alt="" />
+      <h2>диплом об окончании курса</h2>
+      <span>Он дополнит твое портфолио и выгодно выделит тебя на собеседовании
+        в компанию мечты</span>
+
+    </section>
+
+    <!-- Восьмой экран лендинга -->
+
+    <section id="hhJob">
+      <h2 class="title-base">Сколько может зарабатывать Веб-Верстальщик?</h2>
+
+      <p class="text-base">
+        По данным сайта hh.uz большие компании готовы платить начинающим
+        Верстальщикам <span>от 300$</span>. Тебе лишь нужно набираться опыта и
+        твой доход будет расти с каждым разом . А мы готовы тебе помочь в
+        этом!
+      </p>
+
+      <div id="hhImg">
+        <img src="./img/pic_hh.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Девятый экран лендинга -->
+
+    <section id="present-mine">
+      <h2 class="title-base">Кроме этого тебя ждут:</h2>
+
+      <div class="present">
+        <div class="presentImg">
+          <img src="./img/pic_student-box.png" alt="" />
+        </div>
+
+        <div class="present-text-container">
+          <span class="present-text">150$ от наших партнёров</span>
+
+          <span class="present-text">Компьютер для каждого студента со всеми необходимыми
+            программами</span>
+
+          <p class="present-text">
+            Набор студента - приветственное письмо с ссылкой на закрытую
+            группу, канцелярские принадлежности, стикеры и партнерские
+            промо-коды
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Десятый экран лендинга -->
+
+    <section class="reviewSection">
+      <h2>Отзывы наших студентов</h2>
+
+      <div class="feedbacks">
+        
+        <div class="feedback">
+          
+          <img src="./img/icon_youtube.svg" alt="">
+
+          <p>Я пришел в Техникум чтобы сменить профессию на front-end разработчика и окончательно расстаться с
+            предыдущим местом работы. Пробуйте себя во всем, ничего не бойтесь и у вас всё получится! </p>
+
+            <div class="photoStudentsContainer">
+              <img src="./img/Ruslan.png" alt="">
+
+              <div class="spanContainer">
+                <span>Руслан Мухутдинов</span>
+              </div>
+            </div>
+        </div>
+
+        <div class="feedback">
+          <img src="./img/icon_youtube.svg" alt="">
+
+          <p>Я выбрал курс веб-верстальщика, потому что мне это нравится и это круто. После окончания курса, за хорошую
+            учебу, меня пригласили на стажировку в Техникум. Будущее за IT и я не жалею что выбрал эту сферу!</p>
+
+            <div class="photoStudentsContainer">
+              <img src="./img/Iskander.png" alt="">
+
+              <div class="spanContainer">
+                <span>Юлдашев Искандер</span>
+              </div>
+            </div>
+        </div>
+
+        <div class="feedback feedback1">
+          <img src="./img/icon_youtube.svg" alt="">
+
+          <p>Я увидел что Техникум всех приглашает на бесплатную лекцию по программированию. Меня это заинтересовало,
+            после лекции я понял, что это хороший старт для карьеры. После курса я планирую дальше развиваться и
+            двигаться вперед в этой сфере.</p>
+
+            <div class="photoStudentsContainer">
+              <img src="./img/Jahongir.png" alt="">
+
+              <div class="spanContainer">
+                <span>Махмудов Джахонгир </span>
+              </div>
+            </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+      <!-- <section class="slider-desktop splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><div class="feedback">
+          
+          <img src="./img/icon_youtube.svg" alt="">
+
+          <p>Я пришел в Техникум чтобы сменить профессию на front-end разработчика и окончательно расстаться с
+            предыдущим местом работы. Пробуйте себя во всем, ничего не бойтесь и у вас всё получится! </p>
+
+            <div class="photoStudentsContainer">
+              <img src="./img/Ruslan.png" alt="">
+              <div class="spanContainer">
+                <span>Руслан Мухутдинов</span>
+              </div>
+            </div>
+        </div></li>
+            <li class="splide__slide"><div class="feedback">
+              <img src="./img/icon_youtube.svg" alt="">
+    
+              <p>Я выбрал курс веб-верстальщика, потому что мне это нравится и это круто. После окончания курса, за хорошую
+                учебу, меня пригласили на стажировку в Техникум. Будущее за IT и я не жалею что выбрал эту сферу!</p>
+    
+                <div class="photoStudentsContainer">
+                  <img src="./img/Iskander.png" alt="">
+                  <div class="spanContainer">
+                    <span>Юлдашев Искандер</span>
+                  </div>
+                </div>
+            </div></li>
+            <li class="splide__slide"><div class="feedback feedback1">
+              <img src="./img/icon_youtube.svg" alt="">
+    
+    
+              <p>Я увидел что Техникум всех приглашает на бесплатную лекцию по программированию. Меня это заинтересовало,
+                после лекции я понял, что это хороший старт для карьеры. После курса я планирую дальше развиваться и
+                двигаться вперед в этой сфере.</p>
+    
+                <div class="photoStudentsContainer">
+                  <img src="./img/Jahongir.png" alt="">
+                  <div class="spanContainer">
+                    <span>Махмудов Джахонгир </span>
+                  </div>
+                </div>
+            </div></li>
+          </ul>
+        </div>
+      </section> -->
+    </section>
+
+    <!-- Одинадцатый экран лендинга -->
+
+    <section class="purpleBg">
+      <h3>10% скидка действует</h3>
+
+      <div class="timer">
+        <div class="timerElem">
+          <div class="value" id="timerHours">00</div>
+          <div class="desc">часов</div>
+        </div>
+        <div class="timerElem">
+          <div class="value" id="timerMinets">00</div>
+          <div class="desc">минут</div>
+        </div>
+        <div class="timerElem">
+          <div class="value" id="timerSeconds">00</div>
+          <div class="desc">секунд</div>
+        </div>
+      </div>
+      <button class="secondary">Воспользоваться скидкой</button>
+    </section>
+
+    <!-- Двенадцатый экран лендинга -->
+
+    <section class="us">
+      <h2 class="title-base">Немного о нас</h2>
+      <div class="aboutUs">
+        <img src="./img/BigCup.png" alt="" />
+
+        <h5>
+          Резиденты IT-парка и одна из самых успешных DIGITAL-школ в Узбекистане
+        </h5>
+
+        <div>
+          <div class="stat"> > 2500</div>
+          <span>выпускников</span>
+        </div>
+
+        <div>
+          <div class="stat">10 направлений</div>
+          <span>обучения в сфере Digital</span>
+        </div>
+        </div>
+    </section> 
+
+
+    <!-- Тринадцатый экран лендинга -->
+
+    <section id="slider">
+      <h2>Все еще сомневаешься? </h2>
+
+      <p>Тогда последний козырь: после каждого выпуска мы устраиваем крутые вечеринки в честь вручения дипломов!</p>
+
+      <section class="slider-desktop splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="./img/slider_image_01.png" alt=""></li>
+            <li class="splide__slide"><img src="./img/slider_image_02.png" alt=""></li>
+            <li class="splide__slide"><img src="./img/slider_image_03.png" alt=""></li>
+            <li class="splide__slide"><img src="./img/slider_image_04.png" alt=""></li>
+            <li class="splide__slide"><img src="./img/slider_image_05.png" alt=""></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="slider-mobile splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="./img/slider_image_01.png" alt=""></li>
+            <li class="splide__slide"><img src="./img/slider_image_02.png" alt=""></li>
+            <li class="splide__slide"><img src="./img/slider_image_03.png" alt=""></li>
+            <li class="splide__slide"><img src="./img/slider_image_04.png" alt=""></li>
+            <li class="splide__slide"><img src="./img/slider_image_05.png" alt=""></li>
+          </ul>
+        </div>
+      </section>
+
+    </section>
+
+
+        <!-- Четырнадцатый экран лендинга -->
+
+    <section class="bidSection">
+      <div>
+        <h2>запишись на курс прямо сейчас!</h2>
+        <div class="imgSpan">
+          <img src="./img/keyboard.svg" alt="">
+          
+          <span class="htmlCssJs">html, css, js</span>
+        </div>
+        <div class="imgSpan">
+          <img src="./img/game_pad.svg" alt="">
+
+          <span>Разработка онлайн игр</span>
+        </div>
+        <div class="imgSpan">
+          <img src="./img/button_B.svg" alt="">
+
+          <span>Введение в Bootstrap и Github</span>
+        </div>
+      </div>
+
+      <div class="bid">
+        <img class="discount" src="./img/скидка.png" alt="">
+        <div >
+          <h4>оставь заявку</h4>
+          <span id="startLesson">начало обучения: 1 декабря</span>
+
+          <div class="input">
+            <input type="text" placeholder="Имя">
+          </div>
+
+          <div class="input" id="disappear">
+            <input type="text" placeholder="Фамилия">
+          </div>
+
+          <div class="input">
+            <input type="number" placeholder="Номер телефона">
+          </div>
+
+          
+
+          <button>Записаться на курс</button>
+
+          <span id="solidVop">Остались вопросы?</span>
+
+            <span class="transperent">Звони: +998 33 135 33 55</span>
+            <span class="transperent">Наши консультанты доступны каждый день</span> 
+            <span class="transperent">с 10:00 до 22:00.</span>
+        </div>
+      </div>
+    </section>
+
+    
+  </main>
+
+
+  <script src="./script.js"></script>
+
+    <script src="./Splide/splide-4.1.3/splide-4.1.3/dist/js/splide.min.js"></script>
+
+
+
+    <style>
+      /* Скрываем мобильный слайдер на экранах больше 1050px */
+      @media (min-width: 1050px) {
+        .slider-mobile {
+          display: none;
+        }
+      }
+    
+      /* Скрываем десктопный слайдер на экранах 1050px и меньше */
+      @media (max-width: 1050px) {
+        .slider-desktop {
+          display: none;
+        }
+      }
+    </style>
+    
+    <script>
+      // Переменные для хранения активных слайдеров
+      let desktopSlider = null;
+      let mobileSlider = null;
+    
+      // Функция для инициализации слайдеров
+      function initializeSliders() {
+        // Проверка видимости и инициализация desktopSlider
+        const desktopElement = document.querySelector('.slider-desktop');
+        if (desktopElement && getComputedStyle(desktopElement).display !== "none") {
+          desktopSlider = new Splide(desktopElement, {
+            type: 'loop',
+            perPage: 2,
+            perMove: 1,
+            arrows: false,
+            pagination: false,
+            gap: 'calc(150px + (-150 - 150) * ((100vw - 375px) / (1280 - 375)))',
+            drag: 'free',
+            wheel: true,
+            trimSpace: 'move',
+            autoplay: true
+          });
+          desktopSlider.mount();
+        }
+    
+        // Проверка видимости и инициализация mobileSlider
+        const mobileElement = document.querySelector('.slider-mobile');
+        if (mobileElement && getComputedStyle(mobileElement).display !== "none") {
+          mobileSlider = new Splide(mobileElement, {
+            type: 'loop',
+            perPage: 1,
+            perMove: 1,
+            arrows: false,
+            wheel: true,
+            autoplay: true
+          });
+          mobileSlider.mount();
+        }
+      }
+    
+      // Функция для уничтожения слайдеров
+      function destroySliders() {
+        if (desktopSlider) {
+          desktopSlider.destroy();
+          desktopSlider = null;
+        }
+        if (mobileSlider) {
+          mobileSlider.destroy();
+          mobileSlider = null;
+        }
+      }
+    
+      // Инициализация слайдеров при загрузке страницы
+      document.addEventListener('DOMContentLoaded', initializeSliders);
+    
+      // Перезапуск слайдеров при изменении размера окна
+      window.addEventListener('resize', function () {
+        // Уничтожаем активные слайдеры
+        destroySliders();
+        // Повторная инициализация слайдеров в зависимости от нового размера окна
+        initializeSliders();
+      });
+    </script>
+
+
+    <!-- <script id="sliderDesktop">
+      document.addEventListener( 'DOMContentLoaded', function() {
+        var splide = new Splide( '.splide',{
+          type   : 'loop',
+          perPage: 2,
+          perMove: 1,
+          arrows: false,
+          pagination: false,
+          gap: 'calc(150px + (-150 - 150) * ((100vw - 375px) / (1280 - 375)))',
+          drag: 'free',
+          wheel: true,
+          trimSpace: 'move',
+          autoplay: true
+        } );
+        splide.mount();
+      } );
+      var elms = document.getElementsByClassName( 'splide' );
+    </script>
+
+    <script id="sliderMobile">
+      document.addEventListener( 'DOMContentLoaded', function() {
+        var splide = new Splide( '.splide',{
+          type   : 'loop',
+          perPage: 1,
+          perMove: 1,
+          arrows: false,
+          wheel: true,
+          autoplay: true
+        } );
+        splide.mount();
+      } );
+    </script>
+
+
+    <script>
+      let sliderDesktop = document.getElementById('sliderDesktop')
+
+      if ( document.body.clientWidth>1050){
+        document.write('sliderDesktop')
+      }
+    </script> -->
+  
+</body>
+
+</html>

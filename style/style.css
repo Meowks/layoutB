@@ -1,0 +1,825 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TT Hoves";
+}
+
+/* Базовые значения */
+
+.title-base {
+    text-transform: uppercase;
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 117%;
+    font-weight: 500;
+}
+
+.text-base {
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 137%;
+}
+
+
+
+
+/* Первый экран лендинга */
+
+#hello {
+    background-image: url(../img/html_css_js.png);
+    background-repeat: no-repeat;
+    background-position: top 121px right 58px;
+    background-size: 30vw;
+    margin-top: 30px;
+
+}
+
+section {
+    padding: 0 calc(24px + (112 - 24) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: 160px;
+}
+
+.logo_tehnikum {
+    width: calc(215px + (295 - 215) * ((100vw - 375px) / (1280 - 375)));
+    height: calc(30px + (41 - 30) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(28px + (85 - 28) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.info-date {
+    display: flex;
+    gap: 30px 161px;
+    flex-wrap: wrap;
+    margin-bottom: calc(48px + (76 - 48) * ((100vw - 375px) / (1280 - 375)));
+
+}
+
+.info-text {
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 138%;
+    margin-bottom: calc(0px + (5 - 0) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.info-text-date {
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 138%;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: calc(42px + (80 - 42) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 109%;
+    font-family: "Chava";
+    margin-bottom: calc(20px + (40 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.text-prof {
+    width: calc(328px + (930 - 328) * ((100vw - 375px) / (1280 - 375)));
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 137%;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 30px;
+
+}
+
+button {
+    width: 328px;
+    height: 61px;
+    box-sizing: 1px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border-color: #6E3ABA;
+    background-color: #6E3ABA;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button.secondary {
+    border: 1px;
+    border-style: solid;
+    color: #6E3ABA;
+    background-color: white;
+}
+
+
+/* Второй экран лендинга */
+
+
+.title {
+    text-transform: uppercase;
+    width: calc(328px + (769 - 328) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 117%;
+    margin-bottom: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+}
+
+
+
+.emoji {
+    width: calc(175px + (200 - 175) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(10px + (23 - 10) * ((100vw - 375px) / (1280 - 375)));
+}
+
+/* Размер текста */
+
+.text-emoji-title {
+    text-transform: uppercase;
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 600;
+    line-height: 137%;
+    margin-bottom: calc(10px + (20 - 10) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.text-emoji {
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 137%;
+}
+
+/* Первый блок эмоджи */
+
+.first-block-emoji {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px calc(40px + (70 - 40) * ((100vw - 375px) / (1280 - 375)));
+
+    margin-bottom: calc(40px + (52 - 40) * ((100vw - 375px) / (1280 - 375)));
+
+}
+
+.emoji-cart-block {
+    width: calc(328px + (450 - 328) * ((100vw - 375px) / (1280 - 375)));
+    height: calc(350px + (506 - 350) * ((100vw - 375px) / (1280 - 375)));
+    flex-basis: 328px;
+    flex-grow: 1;
+    max-width: 450px;
+}
+
+/* Второй блок эмоджи */
+
+.second-block-emoji {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 70px;
+
+}
+
+
+/* Третий экран лендинга Таймер */
+
+.purpleBg {
+    background-color: #6E3ABA;
+}
+
+section.purpleBg {
+    text-align: center;
+    padding-top: calc(40px + (80 - 40) * ((100vw - 375px) / (1280 - 375)));
+    padding-bottom: calc(40px + (80 - 40) * ((100vw - 375px) / (1280 - 375)));
+}
+
+h3 {
+    font-size: calc(34px + (52 - 34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 700;
+    line-height: 117%;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: calc(20px + (57 - 20) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(40px + (80 - 40) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.timerElem .value {
+    font-family: "Chava";
+    font-size: calc(60px + (174 - 60) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 107%;
+    color: #2f1d4e;
+}
+
+.timerElem .desc {
+    font-size: calc(10px + (27 - 10) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    line-height: 118%;
+    color: #2f1d4e;
+    text-transform: uppercase;
+}
+
+/* Четвертый экран лендинга */
+
+.bio {
+    display: flex;
+    gap: 20px 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.coolTeacher {
+    flex-basis: 240px;
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+.coolTeacher img {
+    width: 100%;
+}
+
+.bioText {
+    flex-basis: 330px;
+    flex-grow: 3;
+    max-width: 650px;
+}
+
+.bioText h4 {
+    font-size: calc(38px + (48 - 38) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 700;
+    line-height: 126%;
+    width: calc(341px + (566 - 341) * ((100vw - 375px) / (1280 - 375)));
+    padding-bottom: calc(10px + (20 - 10) * ((100vw - 375px) / (1280 - 375)))
+}
+
+.bioText p {
+    width: calc(328px + (566 - 328) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.experiense {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.exp {
+    width: calc(156px + (250 - 156) * ((100vw - 375px) / (1280 - 375)));
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: calc(30px + (40 - 30) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.exp img {
+    width: 36px;
+}
+
+.exp span {
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 138%;
+}
+
+#hyphenation-correction {
+    width: calc(156px + (225 - 156) * ((100vw - 375px) / (1280 - 375)));
+}
+
+
+/* Пятый экран лендинга */
+
+
+.info-education>h2 {
+    width: calc(328px + (1022 - 328) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(20px + (90 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.texst-block {
+    width: calc(328px + (400 - 328) * ((100vw - 375px) / (1280 - 375)));
+
+}
+
+section>.first-block-emoji {
+    gap: calc(30px + (52 - 30) * ((100vw - 375px) / (1280 - 375))) 120px;
+    margin-bottom: calc(30px + (52 - 30) * ((100vw - 375px) / (1280 - 375)));
+}
+
+section>.second-block-emoji {
+    gap: calc(30px + (52 - 30) * ((100vw - 375px) / (1280 - 375))) 120px;
+}
+
+/* Шестой экран лендинга */
+
+.programBorder {
+    border-style: solid;
+    border-width: 2px;
+    padding-top: calc(40px + (80 - 40) * ((100vw - 375px) / (1280 - 375)));
+
+    position: relative;
+}
+
+.lessons {
+    list-style: none;
+    width: calc(280px + (949 - 280) * ((100vw - 375px) / (1280 - 375)));
+    margin-top: calc(24px + (40 - 24) * ((100vw - 375px) / (1280 - 375)));
+
+}
+
+.lesson {
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 138%;
+    border-bottom-style: solid;
+    border-width: 1px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+
+}
+
+.indents {
+    padding-left: calc(19px + (64 - 19) * ((100vw - 375px) / (1280 - 375)));
+    padding-right: calc(28px + (52 - 28) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.desktopButtom {
+    display: block;
+    text-align: center;
+    margin: 34px;
+}
+
+.mobileButtom {
+    text-align: center;
+    margin-top: 30px;
+    display: none;
+}
+
+#corner {
+    width: calc(35px + (120 - 35) * ((100vw - 375px) / (1280 - 375)));
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+
+
+
+/* Седьмой экран лендинга */
+
+.diploma {
+    display: grid;
+    grid-template-columns: calc(327px + (430 - 327) * ((100vw - 375px) / (1280 - 375))) 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.diploma img {
+    grid-row: 1/3;
+    width: calc(328px + (430 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.diploma h2 {
+    text-transform: uppercase;
+    width: calc(328px + (578 - 328) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 117%;
+}
+
+.diploma span {
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 137%;
+    width: calc(328px + (514 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+
+/* Восьмой экран лендинга */
+
+#hhJob h2 {
+    width: calc(328px + (729 - 328) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(20px + (40 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+#hhJob p {
+    width: calc(328px + (876 - 328) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(20px + (36 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+#hhJob span {
+    font-weight: 700;
+}
+
+#hhImg {
+    flex-basis: 328px;
+    flex-grow: 1;
+    max-width: 1065px;
+}
+
+#hhImg img {
+    width: 100%;
+}
+
+/* Девятый экран лендинга */
+
+
+
+#present-mine h2 {
+    margin-bottom: calc(20px + (30 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.present {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 20px;
+}
+
+.presentImg {
+    flex-basis: 406px;
+    flex-grow: 1;
+    max-width: 579px;
+}
+
+.presentImg img {
+    width: 100%;
+}
+
+.present-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px 25px;
+    flex-basis: 328px;
+    flex-grow: 3;
+    max-width: 520px;
+    height: calc(215px + (224 - 215) * ((100vw - 375px) / (1280 - 375)));
+
+}
+
+.present-text {
+    font-size: calc(18px + (21 - 18) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 117%;
+}
+
+
+                                    /* Десятый экран лендинга */
+                                    
+
+
+.reviewSection{
+    padding-right: calc(24px + (90 - 24) * ((100vw - 375px) / (1280 - 375)));
+}
+.reviewSection h2{
+    text-transform: uppercase;
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    line-height: 117%;
+    margin-bottom: calc(20px + (40 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.feedbacks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.feedback{
+    background-color: #F0F7FD;
+    border-radius: 12px;
+    padding-left: calc(15px + (20 - 15) * ((100vw - 375px) / (1280 - 375)));
+    padding-right: calc(15px + (20 - 15) * ((100vw - 375px) / (1280 - 375)));
+    padding-top: 50px;
+    padding-bottom: calc(40px + (45 - 40) * ((100vw - 375px) / (1280 - 375)));
+    width: calc(328px + (335 - 328) * ((100vw - 375px) / (1280 - 375)));
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    flex-basis: 300PX;
+    flex-grow: 1;
+    max-width: 335px;
+}
+
+.feedback>img {
+    width: 38px;
+}
+.feedback>p { 
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 138%;
+    margin-top: 8px;
+    margin-bottom: 41px;
+}
+.photoStudentsContainer{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    
+}
+.photoStudentsContainer>img{
+    border-radius: 50px;
+}
+.photoStudentsContainer>div{
+    width: 169px;
+}
+.spanContainer>span{
+    font-size: 21px;
+    line-height: 138%;
+}
+.feedback1{
+    padding-right: 5px;
+}
+
+
+
+
+
+
+                            /* Двенадцатый экран лендинга */
+
+.us h2 {
+    margin-bottom: calc(34px + (80 - 34) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.aboutUs {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 40px 97px;
+
+    align-items: end;
+}
+
+.aboutUs img {
+    width: 110px;
+}
+
+.aboutUs h5 {
+    font-size: calc(22px + (27 - 22) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    width: calc(328px + (426 - 328) * ((100vw - 375px) / (1280 - 375)));
+
+    grid-row: 2/3;
+}
+
+.stat {
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 700;
+    line-height: 118%;
+}
+
+span {
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 140%;
+}
+
+
+                            /* Тринадцатый экран лендинга */
+
+#slider{
+    padding-right: 0;
+}
+#slider h2{
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    line-height: 117%;
+    text-transform: uppercase;
+    margin-bottom: calc(20px + (14 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+#slider p{
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 138%;
+    width: calc(328px + (748 - 328) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(20px + (24 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+#slider img{
+    width: calc(328px + (480 - 328) * ((100vw - 375px) / (1280 - 375)));
+    height: calc(328px + (480 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.splide{
+    padding: 0;
+}
+#sliderMobile{
+    display: none;
+    
+}
+
+                            /* Четырнадцатый экран лендинга */
+
+.bidSection{
+    background-color: #222222;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px 75px;
+    padding-left: calc(23px + (120 - 23) * ((100vw - 375px) / (1280 - 375)));
+    padding-right: calc(23px + (90 - 23) * ((100vw - 375px) / (1280 - 375)));
+    padding-top: calc(40px + (100 - 40) * ((100vw - 375px) / (1280 - 375)));
+    padding-bottom: calc(60px + (80 - 60) * ((100vw - 375px) / (1280 - 375)));
+    justify-content: space-between;
+
+}
+
+.bidSection h2{
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    line-height: 117%;
+    text-transform: uppercase;
+    margin-bottom: calc(40px + (80 - 40) * ((100vw - 375px) / (1280 - 375)));
+    color: #FFFFFF;
+    width: calc(328px + (424 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+.imgSpan{
+    margin-bottom: calc(20px + (24 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+.imgSpan img{
+    margin-right: 20px;
+    width: 28px;
+}
+.imgSpan span{
+    color: #FFFFFF;
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 137%;
+}
+.htmlCssJs{
+    text-transform: uppercase;
+}
+
+.bid{
+    background-color: #FFFFFF;
+    width: calc(327px + (475 - 327) * ((100vw - 375px) / (1280 - 375)));
+    height: calc(529px + (600 - 529) * ((100vw - 375px) / (1280 - 375)));
+    position: relative;
+    text-align: center;
+    padding-left: calc(30px + (61 - 30) * ((100vw - 375px) / (1280 - 375)));
+    padding-right: calc(30px + (61 - 30) * ((100vw - 375px) / (1280 - 375)));
+    padding-top: 60px;
+    padding-bottom: calc(60px + (50 - 60) * ((100vw - 375px) / (1280 - 375)));
+    border-radius: 12px;
+}
+.discount{
+    position: absolute;
+    width: 159px;
+    top: -60px;
+    left: -75px;
+}
+
+.bid h4{
+    font-size: calc(26px + (30 - 26) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 116%;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.bid span{
+    display: block;
+    font-size: 18px;
+    line-height: 117%;
+}
+
+#startLesson{
+    font-size: calc(18px + (21 - 18) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 117%;
+    margin-bottom: 30px;
+}
+.input{
+    width: calc(267px + (338 - 267) * ((100vw - 375px) / (1280 - 375)));
+    height: calc(37px + (40 - 37) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: 24px;
+}
+.input input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 0.5px solid;
+    border-color:rgba(0, 0, 0, 0.2);
+}
+.input :last-child{
+    margin-bottom: 30px;
+}
+input::placeholder{
+    color: rgba(0, 0, 0, 0.2);
+    font-size: calc(18px + (20 - 18) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 150px;
+}
+.bid button{
+    width: calc(267px + (328 - 267) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: 40px;
+}
+#solidVop{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+.transperent{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+@media (max-width: 1105px){
+    .discount{
+        position: absolute;
+        width: 105px;
+        top: -50px;
+        right: -25px;
+        left: auto;
+    }
+    #disappear{
+        display: none;
+    }
+}
+
+
+
+
+@media (max-width: 1000px) {
+    .diploma {
+        grid-template-columns: 1fr;
+    }
+
+    .diploma img {
+        grid-row: 2/3;
+    }
+
+    .aboutUs {
+        grid-template-columns: 1fr;
+    }
+
+    .desktopButtom {
+        display: none;
+    }
+
+    .mobileButtom {
+        display: block;
+    }
+
+    .borderNone {
+        border: none;
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 1050px){
+    .slider-mobile{
+        margin-left: calc(0px + (250 - 0) * ((100vw - 375px) / (1280 - 375)));
+        margin-right: auto;
+    }
+}
+
+
+
+
+
+
+
+/* @media (max-width: 850px) {
+  .review{
+    min-width: 355px;
+  }  
+}
+@media (max-width: 450px) {
+    .review{
+        max-width: 328px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Надо доработать */
+/* @media(max-width: 376px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .logo_tehnikom>img{
+        width: 215.14px;
+        height: 30px;
+        margin-bottom: 28px;
+    }
+    .info-date p{
+        font-size: 16px;
+    }
+    .info-date div{
+        margin-bottom: 48px;
+    }
+    h1{
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+    .text{
+        width: 328px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+} */

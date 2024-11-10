@@ -472,7 +472,8 @@ section>.second-block-emoji {
 .feedbacks{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    
+    
 }
 .feedback{
     background-color: #F0F7FD;
@@ -497,10 +498,10 @@ section>.second-block-emoji {
 }
 .feedback>p { 
     font-size: 21px;
-    font-weight: 400;
     line-height: 138%;
     margin-top: 8px;
     margin-bottom: 41px;
+    height: 261px;
 }
 .photoStudentsContainer{
     display: flex;
@@ -521,6 +522,14 @@ section>.second-block-emoji {
 .feedback1{
     padding-right: 5px;
 }
+
+#slider2{
+    padding-left: calc(24px + (120 - 24) * ((100vw - 375px) / (1280 - 375)));
+}
+#slider2-mobile{
+    padding-left: calc(24px + (400 - 24) * ((100vw - 375px) / (1280 - 375)));
+}
+
 
 
 
